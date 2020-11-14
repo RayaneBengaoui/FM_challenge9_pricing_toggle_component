@@ -1,0 +1,53 @@
+.top-section {
+  width: 100%;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+
+  .title {
+    font-size: 2rem;
+    color: $grayishBlue;
+  }
+
+  .toggle-section {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+
+    p {
+      font-size: 0.9rem;
+      color: $lightGrayishBlue;
+      padding: 0rem 1.8rem;
+    }
+
+    .toggle-container {
+      background: linear-gradient(to left, $lightPurple, $bluePurple);
+      width: 4rem;
+      height: 2rem;
+      padding: 0.3rem;
+      border-radius: 30px;
+      position: relative;
+      transition: all 300ms ease;
+
+      .inner-circle {
+        position: absolute;
+        top: 50%;
+
+        transform: translateY(-50%);
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: white;
+        border-radius: 50%;
+        transition: all 300ms ease;
+      }
+    }
+    .active {
+      .inner-circle {
+        margin-left: 50%;
+      }
+    }
+  }
+}

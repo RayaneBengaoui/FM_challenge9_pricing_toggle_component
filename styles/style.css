@@ -1,3 +1,72 @@
+.top-section {
+  width: 100%;
+  min-height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.top-section .title {
+  font-size: 2rem;
+  color: #6d708d;
+}
+
+.top-section .toggle-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.top-section .toggle-section p {
+  font-size: 0.9rem;
+  color: #b3b5c6;
+  padding: 0rem 1.8rem;
+}
+
+.top-section .toggle-section .toggle-container {
+  background: -webkit-gradient(linear, right top, left top, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(to left, #a3a8f0, #696fdd);
+  width: 4rem;
+  height: 2rem;
+  padding: 0.3rem;
+  border-radius: 30px;
+  position: relative;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.top-section .toggle-section .toggle-container .inner-circle {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.top-section .toggle-section .active .inner-circle {
+  margin-left: 50%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -7,5 +76,10 @@
 
 html {
   font-family: "Montserrat", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f6f6fe;
 }
 /*# sourceMappingURL=style.css.map */
