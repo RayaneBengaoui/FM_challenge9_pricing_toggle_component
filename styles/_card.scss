@@ -1,0 +1,18 @@
+.card-section {
+  background-color: lightcoral;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    background-color: white;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+  }
+}

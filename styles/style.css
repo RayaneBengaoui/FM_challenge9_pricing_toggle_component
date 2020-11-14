@@ -14,7 +14,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 .top-section .title {
@@ -29,7 +29,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .top-section .toggle-section p {
@@ -64,7 +64,37 @@
 }
 
 .top-section .toggle-section .active .inner-circle {
-  margin-left: 50%;
+  margin-left: 48%;
+}
+
+.card-section {
+  background-color: lightcoral;
+  min-height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-section .card {
+  background-color: white;
+  width: 20rem;
+  height: 30rem;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+  text-align: center;
 }
 
 * {

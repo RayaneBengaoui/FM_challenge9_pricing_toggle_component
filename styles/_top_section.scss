@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  padding-top: 2rem;
 
   .title {
     font-size: 2rem;
@@ -15,7 +15,7 @@
   .toggle-section {
     display: flex;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
 
     p {
       font-size: 0.9rem;
@@ -46,7 +46,7 @@
     }
     .active {
       .inner-circle {
-        margin-left: 50%;
+        margin-left: 48%;
       }
     }
   }
