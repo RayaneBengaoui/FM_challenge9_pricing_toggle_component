@@ -101,6 +101,8 @@
   color: #6d708d;
   -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10rem;
+  margin-top: 2rem;
 }
 
 .card-section .card .price {
@@ -121,18 +123,35 @@
 
 .card-section .card .learn-more-button {
   padding: 0.8rem;
-  border: none;
+  border: solid 2px #a3a8f0;
   border-radius: 8px;
-  background: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
-  background: linear-gradient(to right, #a3a8f0, #696fdd);
-  color: white;
+  color: #696fdd;
+  background: none;
   font: inherit;
   font-size: 1rem;
   margin-top: 1rem;
+  outline: none;
+  cursor: pointer;
 }
 
 .card-section .white {
   height: 27rem;
+}
+
+.card-section .purple {
+  padding: 3.2rem 1.8rem;
+  color: white;
+  background: -webkit-gradient(linear, left top, right bottom, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(to bottom right, #a3a8f0, #696fdd);
+}
+
+.card-section .purple .price {
+  color: white;
+}
+
+.card-section .purple .learn-more-button {
+  border-color: white;
+  color: white;
 }
 
 * {
@@ -149,5 +168,8 @@ html {
 body {
   min-height: 100vh;
   background-color: #f6f6fe;
+  background-image: url("../images/bg-bottom.svg"), url("../images/bg-top.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left, top right;
 }
 /*# sourceMappingURL=style.css.map */

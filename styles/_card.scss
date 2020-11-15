@@ -16,6 +16,8 @@
     text-align: center;
     color: $grayishBlue;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10rem;
+    margin-top: 2rem;
 
     .price {
       font-size: 3.5rem;
@@ -35,17 +37,33 @@
 
     .learn-more-button {
       padding: 0.8rem;
-      border: none;
+      border: solid 2px $lightPurple;
       border-radius: 8px;
-      background: linear-gradient(to right, $lightPurple, $bluePurple);
-      color: white;
+      color: $bluePurple;
+      background: none;
       font: inherit;
       font-size: 1rem;
       margin-top: 1rem;
+      outline: none;
+      cursor: pointer;
     }
   }
 
   .white {
     height: 27rem;
+  }
+
+  .purple {
+    padding: 3.2rem 1.8rem;
+    color: white;
+    background: linear-gradient(to bottom right, $lightPurple, $bluePurple);
+
+    .price {
+      color: white;
+    }
+    .learn-more-button {
+      border-color: white;
+      color: white;
+    }
   }
 }
