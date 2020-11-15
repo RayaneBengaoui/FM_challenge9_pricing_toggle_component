@@ -19,3 +19,11 @@ body {
   background-repeat: no-repeat;
   background-position: bottom left, top right;
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    background-image: url("../images/bg-top.svg");
+    background-size: 80%;
+    background-position: 300% 0%;
+  }
+}

@@ -154,6 +154,18 @@
   color: white;
 }
 
+@media screen and (max-width: 1050px) {
+  .card-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card-section .card {
+    margin: 1.5rem 2rem;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -171,5 +183,13 @@ body {
   background-image: url("../images/bg-bottom.svg"), url("../images/bg-top.svg");
   background-repeat: no-repeat;
   background-position: bottom left, top right;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-image: url("../images/bg-top.svg");
+    background-size: 80%;
+    background-position: 300% 0%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
