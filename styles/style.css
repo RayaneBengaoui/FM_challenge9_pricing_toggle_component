@@ -53,6 +53,8 @@
 .top-section .toggle-section .toggle-container .inner-circle {
   position: absolute;
   top: 50%;
+  right: 8%;
+  margin-left: 0rem;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 1.5rem;
@@ -64,7 +66,7 @@
 }
 
 .top-section .toggle-section .active .inner-circle {
-  margin-left: 48%;
+  margin-right: 48%;
 }
 
 .card-section {
