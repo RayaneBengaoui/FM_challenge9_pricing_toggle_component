@@ -123,15 +123,17 @@
 
 .card-section .card .learn-more-button {
   padding: 0.8rem;
-  border: solid 2px #a3a8f0;
+  border: none;
   border-radius: 8px;
-  color: #696fdd;
+  color: white;
   background: none;
   font: inherit;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-top: 1rem;
   outline: none;
   cursor: pointer;
+  background: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(to right, #a3a8f0, #696fdd);
 }
 
 .card-section .white {
@@ -150,8 +152,8 @@
 }
 
 .card-section .purple .learn-more-button {
-  border-color: white;
-  color: white;
+  background: white;
+  color: #696fdd;
 }
 
 @media screen and (max-width: 1050px) {

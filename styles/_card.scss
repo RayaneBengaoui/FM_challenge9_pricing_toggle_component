@@ -37,15 +37,16 @@
 
     .learn-more-button {
       padding: 0.8rem;
-      border: solid 2px $lightPurple;
+      border: none;
       border-radius: 8px;
-      color: $bluePurple;
+      color: white;
       background: none;
       font: inherit;
-      font-size: 1rem;
+      font-size: 0.9rem;
       margin-top: 1rem;
       outline: none;
       cursor: pointer;
+      background: linear-gradient(to right, $lightPurple, $bluePurple);
     }
   }
 
@@ -62,8 +63,8 @@
       color: white;
     }
     .learn-more-button {
-      border-color: white;
-      color: white;
+      background: white;
+      color: $bluePurple;
     }
   }
 }
